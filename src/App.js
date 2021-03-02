@@ -12,6 +12,13 @@ import {
 
 import api from './services/api';  
 
+// não possui valor semântico (significado)
+// não possui estilização propria
+// todos componentes possuem por padrão "display: flex"
+
+// View: Div, Footer, Header, Main, Aside, Section
+// Text: p, span, strong, h1, h2, h3
+
 export default function App() {
 
   const [projects, setProjects] = useState([]);
